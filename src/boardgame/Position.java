@@ -1,12 +1,12 @@
 package boardgame;
 
-public class Possition {
+public class Position {
 
 	private int row;
 	private int column;
 	
 	
-	public Possition(int row, int column) {
+	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
 	}
@@ -33,7 +33,7 @@ public class Possition {
 	
 	@Override
 	public String toString() {
-		return row +"," + column;
+		return row +", " + column;
 	}
 	
 }
